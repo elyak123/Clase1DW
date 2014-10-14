@@ -69,6 +69,24 @@ footer p:last-child:before{
 footer p:last-child:after{
 	content: " -"
 }
+.formulario{
+	padding: 1em;
+	text-align: right;
+	display: none;
+}
+.formulario input{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0.2em 0.6em;
+}
+.formulario input[type="submit"]{
+	background: #32BCE0;
+	border-color: #32BCE0;
+	font-style: italic;
+	text-decoration: none;
+	text-shadow: 2px 2px 5px #000005;
+	color: white;
+}
 header{
 	background-color: #343B54;
 	color: white;
