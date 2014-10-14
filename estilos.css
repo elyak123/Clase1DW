@@ -1,0 +1,254 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fuentes/fonts/icomoon.eot?kbvmfd');
+	src:url('fuentes/fonts/icomoon.eot?#iefixkbvmfd') format('embedded-opentype'),
+		url('fuentes/fonts/icomoon.woff?kbvmfd') format('woff'),
+		url('fuentes/fonts/icomoon.ttf?kbvmfd') format('truetype'),
+		url('fuentes/fonts/icomoon.svg?kbvmfd#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	text-decoration: none;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pen:before {
+	content: "\e601";
+}
+.icon-bubble:before {
+	content: "\e600";
+}
+.icon-star:before {
+	content: "\e604";
+	color: yellow;
+}
+.icon-like:before {
+	content: "\e602";
+}
+.icon-unlike:before {
+	content: "\e603";
+}
+
+a{
+	color: #22BCE0;
+}
+body{
+	background-color: #EEEEEE;
+	font-family: "Open Sans";
+	font-size: 16px;
+}
+footer{
+	background-color: #22BCE0;
+	text-align: center;
+	padding: 1em;
+}
+footer p{
+	color: rgba(255,255,255,0.7);
+}
+footer p:first-child{
+	margin-bottom: 0;
+}
+footer p:last-child{
+	margin-top: 0;
+}
+footer p:last-child:before{
+	content: "- "
+}
+footer p:last-child:after{
+	content: " -"
+}
+header{
+	background-color: #343B54;
+	color: white;
+	padding: 0.2em;
+	text-align: left;
+	overflow: hidden;
+	position: relative;
+}
+header figure #logo:hover{
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+}
+header figure #logo{
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	-o-transition:1s;
+	-ms-transition:1s;
+}
+header h1{
+	font-size: 1.125em;
+	font-weight: normal;
+	margin: 0 70px 0 0;
+
+}
+header figure{
+	float: left;
+
+}
+.Menu-logoContainer{
+	margin: 0;
+	display: inline-block;
+	border-right: 1px solid white;
+	padding-right: 0.5em;
+	margin-right: 0.5em;
+}
+.Menu-avatarContainer{
+	margin: 0.2em 0.2em 0.2em 0;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.MenuImage
+{
+	width: 3.25em;
+	border-radius: 3.25em;
+	display: inline-block;
+}
+
+nav{
+	background-color: #80BCA3;
+	padding: 0em 7em 0 0;
+	position: relative;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-left: 0.5em;
+
+}
+nav ul li{
+	display: inline-block;
+	margin: 0 1em 0 0;
+	padding: 0.2em 0;
+}
+nav ul li a{
+	color: white;
+	padding: 0.2em 0;
+}
+nav ul li a:hover{
+	background-color: #343B54;
+	-webkit-transition:0.3s;
+	-o-transition:0.3s;
+	-ms-transition:0.3s;
+	-moz-transition:0.3s;
+}
+nav ul #publicar_nav{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+nav ul #publicar_nav a{
+	background: #32BCE0;
+	padding: 0.8em 0.5em;
+	border-radius: 5px;
+	font-style: italic;
+	text-decoration: none;
+	box-shadow: 2px 2px 20px #000005;
+	text-shadow: 2px 2px 5px #000005;
+}
+nav ul #publicar_nav a:hover:before{
+	font-size: 1.2em;
+	-webkit-transition:0.3s;
+	-o-transition:0.3s;
+	-ms-transition:0.3s;
+	-moz-transition:0.3s;
+
+}
+aside{
+	display: none;
+}
+#contenido{
+	margin: 1em;
+}
+.Article-imageContainer	{
+	float: left;
+	margin: 0 1em 0 0;
+}
+.Article-image{
+	width: 96px;
+
+}
+.item{
+	background: white;
+	border-bottom: 3px solid #22BCE0;
+	min-height: 128px;
+	position: relative;
+	margin-bottom: 3em;
+}
+.Article-title{
+	font-size: 1.2em;
+	font-style: italic;
+	color: #444;
+	text-decoration: none;
+	padding-top: 1em;
+}
+.Articleauthor-box{
+	color: #AAA;
+}
+.datos_item{
+	text-align: right;
+	margin: 0.7em 1em 0 0;
+	color: #AAA;
+}
+.tag_item{
+	background: #F4502A;
+	color: white;
+	text-decoration: none;
+	padding: 0.2em 0.5em;
+	float: left;
+	border-radius: 0.5em;
+
+}
+.votacion{
+	background-color: white;
+	width: 90%;
+	position: absolute;
+	top: 100%;
+	left: 5%;
+	margin-top: 3px;
+	padding: 0.2em 0.5em;
+	border-radius: 0 0 0.5em 0.5em;
+}
+.comentarios_item,
+.guardar_item{
+	float: right;
+}
+@media screen and (min-width: 708px){
+	.item{
+		width: 49%;
+		display: inline-block;
+}
+@media screen and (min-width: 1200px){
+	.item{
+		width: 32%;
+	}
+}
+@media screen and (min-width: 1200px){
+	aside{
+		display: block;
+		float: right;
+		margin: 1em;
+		width: 33%
+	}
+	aside video{
+		width: 100%;
+
+	}
+}
