@@ -8,7 +8,7 @@
       Título que se encuentra en la parte superior central del navegador
     </title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="..\Clase 2\static\normalize.css ">
+    <link rel="stylesheet" type="text/css" href="normalize.css ">
     <link rel="stylesheet" type="text/css" href="estilos.css">
   </head>
 <body>
@@ -30,17 +30,17 @@
       <li class="MainMenu-item"><a href="#">Javascript</a></li>
       <li class="MainMenu-item"><a href="#">CSS3</a></li>
       <li class="MainMenu-item"><a href="#">Django</a></li>
-      <li id="publicar_nav"><a href="#" class="icon-pen"> Publicar</a></li>
+      <li id="publicar_nav"><a href="#" id="mostrar-form" class="icon-pen"> Publicar</a></li>
     </ul>
   </nav>
   <form action="" id="formulario" class="formulario">
     <input type="text" id="titulo" placeholder="Titulo" required>
-    <input type="url" id="ur" placeholder="Link" required>
-    <input type="submit" value="Agregar">
+    <input type="url" id="url" placeholder="Link" required>
+    <input type="submit" value="Agregar" id="agregar">
   </form>
   <aside>
     <video autoplay loop controls>
-      <source src="lecturas.mp4" type="video/mp4">
+      <source src="lecturas.m4v" type="video/mp4">
       <source src="lecturas.ogg" tyoe="video/ogg">
     </video>
   </aside>
@@ -156,5 +156,16 @@
       Otro Texto del Pie de Página DR 2014
     </p>    
   </footer>
+  
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script>
+  // window.onload = function (){
+  //   console.log("Yas se disparo el evento OnLoad")
+  // }
+  // $(document).on('ready', function(){
+  //     console.log('Ya se diusparó el evento DOMContentLoaded');
+  // });
+  </script>
+  <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
