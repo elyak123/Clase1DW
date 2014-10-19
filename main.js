@@ -20,6 +20,7 @@ var $form = $('#formulario'),
 		$clone.hide();
 		$list.prepend($clone);
 		$clone.fadeIn();
+		return false;
 	}
 
 	//eventos
