@@ -19,8 +19,12 @@ var $form = $('#formulario'),
 
 		$clone.hide();
 		$list.prepend($clone);
+		$titulo.val(" ");
+		$url.val(" ");
 		$clone.fadeIn();
+		$form.slideToggle();
 		return false;
+
 	}
 
 	//eventos
