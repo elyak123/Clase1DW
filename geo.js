@@ -6,7 +6,10 @@ function geo_error(){
 }
 
 function geo_exito(posicion){
-	console.log(posicion);
+	var lat = posicion.coords.latitude;
+	var lon = posicion.corrds.longitude;
+	var mapa = new Image();
+	mapa.src = "http//maps.google.com/maps/apu/staticmap?"
 }
 
 geo.getCurrentPosition(geo_exito, geo_error, opciones);
