@@ -7,7 +7,7 @@ function geo_error(){
 
 function geo_exito(posicion){
 	var lat = posicion.coords.latitude;
-	var lon = posicion.corrds.longitude;
+	var lon = posicion.cords.longitude;
 	var mapa = new Image();
 	mapa.src = "http//maps.google.com/maps/apu/staticmap?"
 }
