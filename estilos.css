@@ -199,6 +199,7 @@ aside{
 }
 #contenido{
 	margin: 1em;
+	min-height: 650px;
 }
 .Article-imageContainer	{
 	float: left;
@@ -269,6 +270,8 @@ aside{
 		float: right;
 		margin: 1em;
 		width: 33%
+		margin-top: 0;
+		padding-top: 0,
 	}
 	aside video{
 		width: 100%;
