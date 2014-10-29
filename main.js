@@ -15,8 +15,9 @@ var $form = $('#formulario'),
 		sessionStorage.setItem("url", $url.val() );
 	}, 100);
 	function mostrarFormulario(){
+		//$list.slideToggle();
 		$form.slideToggle();
-		$list.slideToggle();
+		$list.fadeToggle();
 
 		return false;
 	}
